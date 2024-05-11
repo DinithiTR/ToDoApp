@@ -32,9 +32,9 @@
 
         <ImageView
             android:id="@+id/emptyNotesImage"
-            android:layout_width="400dp"
-            android:layout_height="400dp"
-            android:src="@drawable/empty_notes"
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            android:src="@drawable/new_empty_notes"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

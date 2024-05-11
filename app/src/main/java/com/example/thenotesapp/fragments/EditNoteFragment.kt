@@ -55,7 +55,7 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
 
         binding.editNoteFab.setOnClickListener{
             val noteTitle = binding.editNoteTitle.text.toString().trim()
-            val noteDesc = binding.editNoteTitle.text.toString().trim()
+            val noteDesc = binding.editNoteDesc.text.toString().trim()
 
             if(noteTitle.isNotEmpty()){
                 val note = Note(currentNote.id,noteTitle,noteDesc)
