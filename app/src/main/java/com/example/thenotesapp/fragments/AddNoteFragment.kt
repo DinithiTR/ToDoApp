@@ -49,7 +49,7 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note), MenuProvider {
 
     private fun saveNote(view: View){
         val noteTitle = binding.addNoteTitle.text.toString().trim()
-        val noteDesc = binding.addNoteTitle.text.toString().trim()
+        val noteDesc = binding.addNoteDesc.text.toString().trim()
 
         if (noteTitle.isNotEmpty()){
             val note = Note(0,noteTitle, noteDesc)
